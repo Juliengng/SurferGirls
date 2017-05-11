@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Surfer Girls</string>
+    <string name="identity">Nationality : US\n
+    Birthday: 1990\n
+    Size:1.73m\n
+    Nickname : Lana \n
+    Style : Regular \n</string>
 </resources>

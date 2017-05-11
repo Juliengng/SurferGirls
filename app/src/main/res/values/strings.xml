@@ -20,4 +20,10 @@
     Height : Unknown\n
     Nickname : Unknown \n
     Style : Regular \n</string>
+    <string name="identity5">Nationality : US\n
+    Birthday : 1995\n
+    Height : 1.70m\n
+    Nickname : Unknown \n
+    Style : Regular \n</string>
+
 </resources>

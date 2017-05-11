@@ -8,6 +8,7 @@
     tools:context="com.example.a34011_14_03.myapplication.MainActivity">
 
 
+
 <TextView
 android:onClick="onClick"
 android:id="@+id/surfeuse1"
@@ -15,7 +16,11 @@ android:layout_width="fill_parent"
 android:layout_height="wrap_content"
 android:text="ALANA BLANCHARD"
 android:gravity="center"
-android:textAppearance="?android:attr/textAppearanceSmall"/>
+android:textAppearance="?android:attr/textAppearanceSmall"
+    android:layout_marginTop="104dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
 
 <TextView
 android:id="@+id/surfeuse2"
@@ -46,18 +51,32 @@ android:layout_alignParentLeft="true"
 android:layout_alignParentStart="true" />
 
 <TextView
-android:id="@+id/surfeuse4"
-    android:onClick="onClick4"
-android:layout_width="fill_parent"
-android:layout_height="wrap_content"
-android:text="BRIANNA COPE"
-android:layout_weight="1"
-android:gravity="center"
-android:textAppearance="?android:attr/textAppearanceSmall"
-android:layout_marginTop="12dp"
-android:layout_below="@+id/surfeuse3"
-android:layout_alignParentLeft="true"
-android:layout_alignParentStart="true" />
+        android:id="@+id/surfeuse4"
+        android:onClick="onClick4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="BRIANNA COPE"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/surfeuse3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/surfeuse5"
+        android:onClick="onClick5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="QUINCY DAVIS"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_below="@+id/surfeuse4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
 
 </RelativeLayout>
 

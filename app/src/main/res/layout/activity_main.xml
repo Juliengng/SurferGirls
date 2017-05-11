@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#00CCCC"
+    tools:context="com.example.a34011_14_03.myapplication.MainActivity">
+
+
+    <TextView
+        android:id="@+id/Help"
+        android:layout_width="90dp"
+        android:layout_height="35dp"
+        android:autoLink="email"
+        android:gravity="center"
+        android:padding="20px"
+        android:text="Need Help ?"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/Palmier"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/palmier"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Login"
+        android:ems="10"
+        android:background="#CCFFCC"
+        android:id="@+id/Login"
+        android:layout_below="@+id/Palmier"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:background="#CCFFCC"
+        android:ems="10"
+        android:layout_marginTop="18dp"
+        android:id="@+id/Mdp"
+        android:layout_below="@+id/Login"
+        android:layout_alignLeft="@+id/Login"
+        android:layout_alignStart="@+id/Login" />
+
+    <ImageView
+        android:id="@+id/skate"
+        android:layout_width="290dp"
+        android:layout_height="270dp"
+        android:src="@drawable/skate"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/Mdp"
+        android:layout_alignStart="@+id/Mdp" />
+
+
+    <Button
+        android:text="Connect"
+        android:textColor="#33ff99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:background="#00CCCC"
+        android:layout_below="@+id/Mdp"
+        android:layout_centerHorizontal="true"
+        android:onClick="Login"/>
+
+</RelativeLayout>

@@ -28,4 +28,8 @@ public class MenuPrincipal extends AppCompatActivity {
         Intent Surfeuse2 = new Intent(MenuPrincipal.this, Surfgirl2.class);
         this.startActivity(Surfeuse2);
     }
+    public void onClick3(View view) {
+        Intent Surfeuse3 = new Intent(MenuPrincipal.this, Surfgirl3.class);
+        this.startActivity(Surfeuse3);
+    }
 }

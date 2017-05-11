@@ -13,20 +13,20 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/maud"
+            android:id="@+id/alana"
             android:layout_width="wrap_content"
-            android:layout_height="417dp"
+            android:layout_height="229dp"
             android:layout_above="@+id/youtube_player_view"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:src="@drawable/maud" />
+            android:src="@drawable/tia" />
 
         <TextView
             android:id="@+id/text"
             android:layout_width="match_parent"
             android:layout_height="142dp"
             android:layout_above="@+id/alana"
-            android:text="@string/identity2"
+            android:text="@string/identity"
             android:textColor="#FFFFFF"
             android:textSize="20dp"
             android:textStyle="bold"

@@ -2,17 +2,22 @@
     <string name="app_name">Surfer Girls</string>
     <string name="identity">Nationality : US\n
     Birthday: 1990\n
-    Size:1.73m\n
+    Height:1.73m\n
     Nickname : Lana \n
     Style : Regular \n</string>
     <string name="identity2">Nationality : Fr\n
     Birthday : 1992\n
-    Size : Unknown\n
+    Height : Unknown\n
     Nickname : Unknown \n
     Style : Regular \n</string>
     <string name="identity3">Nationality : US\n
     Birthday : 1997\n
-    Size : Unknown\n
+    Height : Unknown\n
+    Nickname : Unknown \n
+    Style : Regular \n</string>
+    <string name="identity4">Nationality : US\n
+    Birthday : 1994\n
+    Height : Unknown\n
     Nickname : Unknown \n
     Style : Regular \n</string>
 </resources>

@@ -24,7 +24,8 @@
         <activity android:name=".MenuPrincipal" />
         <activity android:name=".Surfgirl1" />
         <activity android:name=".Surfgirl2" />
-        <activity android:name=".Surfgirl3"></activity>
+        <activity android:name=".Surfgirl3" />
+        <activity android:name=".Surfgirl4"></activity>
     </application>
 
 </manifest>
